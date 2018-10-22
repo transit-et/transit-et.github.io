@@ -17,6 +17,5 @@ page_sections:
   content: One of TAET's first steps toward a robust, regional public transit system    is
     working toward establishing the Knox-Blount light rail transit service.
   headline: 'Knox-Blount light rail transit service '
-published: false
 
 ---
