@@ -1,18 +1,20 @@
 ---
 layout: blocks
-title: Homepage
+title: Transit Alliance of East Tennessee
 date: 2017-11-22 23:00:00 +0000
 page_sections:
 - template: navigation-header
   block: header-1
-  logo: "/uploads/2018/10/09/taet.png"
+  logo: "/uploads/2018/10/09/taet.svg"
   navigation:
   - link: "/"
     link_text: Home
   - link: "/map"
     link_text: Map
-  - link: "#About"
+  - link: "/#About"
     link_text: About
+  - link: "/#Vision"
+    link_text: Our Vision
 - template: hero-banner-w-image
   block: hero-2
   headline: Transit Alliance of East Tennessee
@@ -23,53 +25,19 @@ page_sections:
     url: "/map"
     button_text: View the map
   image:
-    image: "/uploads/2018/06/21/product-shot-1.png"
+    image: "/uploads/2018/10/09/taet_light.svg"
     alt_text: Product Shot
-  background_image: "/uploads/2018/10/22/Knoxville_TN_skyline.jpg"
-- template: content-feature
-  block: feature-1
-  media_alignment: Left
-  headline: <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
-    class="light">the Blocks to create sites quickly</span>
-  content: Quickly assemble and create custom sites with 16 design blocks for seven
-    different sections.
-  media:
-    image: "/uploads/2018/06/21/blocks-split.png"
-    alt_text: uBuild Blocks Mock-Up
-- template: content-feature
-  block: feature-1
-  media_alignment: Right
-  headline: <strong>Customize Blocks</strong><span class="light">&nbsp;to make quick
-    edits throughout your new site</span>
-  content: Each block comes with custom Front Matter that can easily be edited in
-    Forestry's UI.
-  media:
-    image: "/uploads/2018/06/21/edit.gif"
-    alt_text: Customize Blocks
-- template: 1-column-text
-  block: one-column-1
-  headline: 16 Fully Responsive Design Blocks
-  content: "The Design Blocks can be used without Forestry but to harness the power
-    of Blocks we recommend using Forestry. Once the site is imported you can immediately
-    create new sites and make them fully customizable. \U0001F447"
-- template: full-width-media-element
-  block: media-1
-  image: "/uploads/2018/06/21/theme.png"
-  caption: All Available Blocks
+  background_image: "/uploads/2018/10/22/Knoxville_TN_skyline_dark.jpg"
 - template: detail-content
   block: text-1
-  headline: Steps to Build a Site!
-  content: <p>uBuild is an open-source Jekyll based theme that doubles as a builder
-    tool inside the Forestry content manager. It's easy to get started!</p><ol><li><p>Fork
-    the <a href="https://github.com/forestryio/ubuild-jekyll">repo</a> and import
-    the site into <a href="https://forestry.io/">Forestry</a> (or use <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks#even-quicker-start">our
-    magic button</a>).</p></li><li><p>Click on 'Add New' in Forestry and select the
-    Page-Builder template.</p></li><li><p>Add and customize the available Blocks and
-    preview them as you go along.</p></li><li><p>Read <a href="https://forestry.io/blog/ubuild-a-new-theme-for-static-sites-using-blocks/">our
-    article</a> and create your own Blocks.</p></li></ol>
+  headline: <a id="About">About</a>
+  content: <p>Transit Alliance of East Tennessee is advocating for a pragmatic approach to providing afforable rail transit to serve the needs of Knoxville region's many single occupant commmuters.</p><ol><li><p>Use existing rail infrastructure to lower costs</p></li><li><p>Use used rail cars from San Diego to reduce costs</p></li><li><p>Convert existing diesel locomotion to an-all electric system with on-board battery storage.</p></li><li><p>Connect Knoxville to Alcoa's newly planned downtown, while also serving the needs of Knoxville's airport.</p></li></ol>
+- template: detail-content
+  block: text-1
+  headline: <a id="Vision">Vision</a>
+  content: <p>Transit Alliance of East Tennessee is only a small piece of the larger puzzle. For true quality transit in the multi-jurisdictional Knoxville region, a regional transit commission is sorely needed. With a regional transit authority, the Knoxville area can benefit from:</p><ol><li><p>Money to be set aside for longer term projects across jurisdictional lines</p></li><li><p>A governmental mediator between distinct interests of Knoxville and its less urban neighbors</p></li><li><p>Eligiblity to pursue federal funds for regional transportation improvements</p></li><li><p>Better collaborations with other regional transit authorities for best practices.</p></li></ol>
 - template: simple-footer
   block: footer-1
-  content: Hello world! ❤︎
+  content: Made with ❤︎ by Transit Alliance East Tennessee 2018
 
 ---
-foo bar
