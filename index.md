@@ -3,30 +3,29 @@ layout: blocks
 title: Homepage
 date: 2017-11-22 23:00:00 +0000
 page_sections:
-- template: navigation-header-w-button
-  block: header-2
+- template: navigation-header
+  block: header-1
   logo: "/uploads/2018/10/09/taet.png"
   navigation:
+  - link: "#About"
+    link_text: About
   - link: "/"
     link_text: Home
-  - link: Knox-Blount-Light-Rail-Line
-    link_text: Knox-Blount Light Rail Line
-  cta:
-    url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
-    button_text: Download
+  - link: "/map"
+    link_text: Map
 - template: hero-banner-w-image
   block: hero-2
-  headline: uBuild <br><strong>design blocks</strong>
-  content: The tool that allows you to build beautiful sites<br>all inside Forestry's
-    content manager.
+  headline: Transit Alliance of East Tennessee
+  content: 'A community organization with a plan to address Knoxville''s most pressing
+    transportation needs: regional area transit'
   cta:
     enabled: true
-    url: https://github.com/forestryio/ubuild-jekyll
-    button_text: 'See on GitHub '
+    url: "/map"
+    button_text: View the map
   image:
     image: "/uploads/2018/06/21/product-shot-1.png"
     alt_text: Product Shot
-  background_image: "/uploads/2018/06/21/hero-2-bg.png"
+  background_image: "/uploads/2018/10/22/Knoxville_TN_skyline.jpg"
 - template: content-feature
   block: feature-1
   media_alignment: Left
