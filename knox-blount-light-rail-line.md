@@ -6,6 +6,11 @@ page_sections:
 - template: navigation-header
   block: header-1
   logo: "/uploads/2018/10/09/taet.png"
+  navigation:
+  - link: "/"
+    link_text: Home
+  - link: "/map"
+    link_text: Map
 - template: content-feature
   block: feature-1
   media_alignment: Right
