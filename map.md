@@ -1,7 +1,7 @@
 ---
 title: Knox-Blount Light Rail Line
 layout: blocks
-date: 2018-10-09 17:24:06 -0400
+date: 2018-10-09 21:24:06 +0000
 page_sections:
 - template: navigation-header
   block: header-1
@@ -21,4 +21,7 @@ page_sections:
   content: One of TAET's first steps toward a robust, regional public transit system    is
     working toward establishing the Knox-Blount light rail transit service.
   headline: 'Knox-Blount light rail transit service '
+published: false
+
 ---
+![](/uploads/2019/02/18/map.png)
